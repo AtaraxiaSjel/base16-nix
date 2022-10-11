@@ -4,6 +4,7 @@
     "rev": "914727e48ebf3eab1574e23ca0db0ecd0e5fe9d0",
     "path": "/nix/store/7vkcd5gpzczp85zvrmwyi8g8i0jpa9fk-base16-alacritty",
     "sha256": "0zibl9kzazckkyzb6j0iabrl82r1kgwg8ndqpy7dz0kwmj42wfx0",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
@@ -13,6 +14,7 @@
     "rev": "3abe470e6306a77ab107b8aea0c5807b2d936d77",
     "path": "/nix/store/1sw0c5gixnqbb65czjb5gr8d18m9vhhy-base16-amfora",
     "sha256": "0j9aq8zj0szg2apw0fz8jm5yaz477gcqxfhn2pn8mqpi4v12idkp",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
@@ -22,6 +24,7 @@
     "rev": "362851c8fe13c3eb92db757f15d55b17189c9de8",
     "path": "/nix/store/1mghzr27qnkc77cgrhfz3pdjks9q5hwl-base16-binary-ninja",
     "sha256": "092rns6zxkwrar2b26agky5pdlkbkidlvla2zzlbk5shap4adkvm",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
@@ -31,6 +34,7 @@
     "rev": "e9da92d2ab4aa947674158e27132974e92470b60",
     "path": "/nix/store/8l55cdl7lszy7bwvslzlnxc5bngm8vpr-base16-blink",
     "sha256": "1dfib39nwsmxs0nqpg1qlf7f1vhm9v6ybh4lqyml0rvhz3x83ssm",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
@@ -40,6 +44,7 @@
     "rev": "d03a6131bfdc89fd0e6149b58cfa799a8e90c5e2",
     "path": "/nix/store/v7kvln33fq4591bkm842i7mq5c3znlnv-base16-c_header",
     "sha256": "01084n3jm8vcaqbkhf70fwiaqqjc6kkjzjr6y5lgb27zghw1cif5",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
@@ -49,15 +54,17 @@
     "rev": "6324f8a34d9149b19c26326ca51469980b47a6b2",
     "path": "/nix/store/r4414bckc7cmwrxm62xcnjbi4m1sygaq-base16-concfg",
     "sha256": "154ljbl062d2rc1w1ia0wkyja6lmn0izbkdd3vljcrl5s72isyh1",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
   },
   "conemu": {
     "url": "https://github.com/martinlindhe/base16-conemu",
-    "rev": "c4380af0f0851f51d7354e77a93f85c7621c69c2",
-    "path": "/nix/store/47rjza3kk6yyrlzblplrpw42hg9x1fpc-base16-conemu",
-    "sha256": "1zjmm1jr7in78xjwqza6npi7w5ihvl5ic6ipd3dg9181hw0r457a",
+    "rev": "b036617082ea70dbb758cfb95e734455c5705d7d",
+    "path": "/nix/store/744fk1dk9wk65bz2wjhxxqrn0b0s1xa1-base16-conemu",
+    "sha256": "0m3ii70z7ljahn70bvffgyyr77a36wir3nmx7wg2xrhqwwj2jm6l",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
@@ -67,6 +74,7 @@
     "rev": "4d2821b0eae717c0c677b2fb3467678365f1471c",
     "path": "/nix/store/kfycc46mqadsvzpv3nv7gpmb0aj6daxr-base16-console2",
     "sha256": "0pxmx18bdv0d2v8zh9qfiimiqv7p3fm4j4bcx4sswcn6s00476l1",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
@@ -76,6 +84,7 @@
     "rev": "6b5a42296fc15edf8ec6743ce5d362be7f4d842d",
     "path": "/nix/store/1bgfnr0q4sbcbf40aaskma2yv3b8rvls-base16-consolez",
     "sha256": "1xj6m9kg39j960czmm9pd5yhlbblk7snvd4drszyj5l4bd1wjmwv",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
@@ -85,6 +94,17 @@
     "rev": "7b96387fd1246758b1c27a09ca2d4fc7cc29fc17",
     "path": "/nix/store/6xblxkmwix38kz8lqlap1z0q7ks6p90l-base16-crosh",
     "sha256": "0rm6wfmr1s0kxdkiva1nvzfss2z8h5rdckfzh70kz465zskylylk",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "leaveDotGit": false
+  },
+  "doom": {
+    "url": "https://github.com/MArpogaus/base16-doom",
+    "rev": "2618b791e738d04b89cd61ac76af75c5fd8d4cb1",
+    "path": "/nix/store/q9b2bkpcrxzlgl3rfq7935rdr7ml2y9z-base16-doom",
+    "sha256": "0035s9q58fsqcxnmkwy0hmhyf66aq4663mvw785lc4s69sxh2y64",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
@@ -94,24 +114,27 @@
     "rev": "472f45b2e18efa3c0b355ec9d3f3469bfe2f0b35",
     "path": "/nix/store/x1n8f2qf7pqfg97lk35zsmmvjzy4l6an-base16-dwm",
     "sha256": "06xs8gd4gd1kxvp7lwi8c5vpamn7ifancrmc942qgy4031z1v7xb",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
   },
   "dunst": {
     "url": "https://github.com/khamer/base16-dunst",
-    "rev": "5b70a3c0177a0ad8531bb0a027f57cffd4697ec9",
-    "path": "/nix/store/23l2ph6ibpbbx0a6bipidgvfmg7p0cvn-base16-dunst",
-    "sha256": "0v453dlywf0xbdssvnxq66c6pah6d6n4biyrx4b6v2d4552n9lzh",
+    "rev": "0742b410274aebf069ff107dcc58ed48fb425d08",
+    "path": "/nix/store/s1i5r5k3jdlcln0fqqxxhnlfv5fjxdb2-base16-dunst",
+    "sha256": "006id9mvxsipx6jhvys0ry1jix37ffx0hgf2ah4hgpyvaizablwc",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
   },
   "emacs": {
     "url": "https://github.com/belak/base16-emacs",
-    "rev": "9836cc26c2f8ed9d809feee2bfd8c082cfdbd033",
-    "path": "/nix/store/h812gzpkavnrgzza4nbpfnd598ys0fjy-base16-emacs",
-    "sha256": "146fmjkib6d05xyz88yc903w8wla19f0vy3f91yr4qj7ab74frxf",
+    "rev": "a53091ca225b70136e8e3a1f693d0e856022dd31",
+    "path": "/nix/store/z9kfggjm4hk6x63gnwm1wmgigcbg09dg-base16-emacs",
+    "sha256": "07yqdqidhch8q2baqfrai7nqa4mn9cr45l7nq97z8aq0x57ws7xh",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
@@ -121,24 +144,37 @@
     "rev": "9931a068b7da50f6478170557eb9f586f9f400fc",
     "path": "/nix/store/yv27zjfip1s943wm3ihs6xaxsr285rn2-base16-everything",
     "sha256": "0bxbgcqlyiw2wy6yhdb0gkadfcm7ig3y3a9irwzk6b6s3s2hl255",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "leaveDotGit": false
+  },
+  "foot": {
+    "url": "https://gitlab.com/ArenM/base16-foot",
+    "rev": "b939362ec6decf39364cdeec3461d8857ccbf96f",
+    "path": "/nix/store/j9r6g3c5mbj1qs08b7y2s1s071z0yja5-base16-foot",
+    "sha256": "04z7bpsw3zik4s9c2xy4pd98wr8wns3b6wx3jni3f796b6zgs37d",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
   },
   "frescobaldi": {
     "url": "https://github.com/rkubosz/base16-frescobaldi",
-    "rev": "736ac29514fe3c304306f524b9ce7920130ba5f8",
-    "path": "/nix/store/jx1pd6bfpjndcld1c56n8ama57hbk5a2-base16-frescobaldi",
-    "sha256": "1yjgvprdlfdb5f3yrxxss51dkp2pljfyr1ayz4cap177dz232m0l",
+    "rev": "c17ab33fa75940fe459e58420615f2d4d2db4900",
+    "path": "/nix/store/vbryfx0bh5xgz0hh4npga8f9v3ww1c0p-base16-frescobaldi",
+    "sha256": "1hmlxfqxkk0mwc08a526q5zi3khnmarvyqsq6qniw8avf91s7x9a",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
   },
   "fzf": {
     "url": "https://github.com/fnune/base16-fzf",
-    "rev": "180b00dd49ba3238ea53b1c0a47ed25a7322ea2f",
-    "path": "/nix/store/ak18c7sh9hhbml89wrfqa694rg1519i4-base16-fzf",
-    "sha256": "1aws7hqisr5ph1p6l23jf4wgrs7anivpj55i86xc9p85hh1a8jsv",
+    "rev": "665b0821cb5ece119a039f0d91467b1828e6c355",
+    "path": "/nix/store/cnsf251x4kpjm6b4p5nh6x70n37sgm9q-base16-fzf",
+    "sha256": "1z57ph27smglj82x1yaa8d7xxc842b7ghg91j7afd8kzds0gq8yx",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
@@ -148,6 +184,7 @@
     "rev": "d9665597212f96491a728f1627138b81f4c410f6",
     "path": "/nix/store/lpbnk7nmncmy09lh5bi2zy1jxnbcjag9-base16-gnome-terminal",
     "sha256": "0al87fh9z7blx7nf76rwi06f3m78jj6i1vw9s9988rk5951y3a0h",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
@@ -157,15 +194,17 @@
     "rev": "72af0d32c6944ce1030139cdba2f25a708c37382",
     "path": "/nix/store/6fkw0bvwwfni0h2jngqn10ww1w1zaqjh-base16-godot",
     "sha256": "0hzhdhn960m5916hg1yb6vw9mwwq7za9wqkyd32z2c67p4hmcdrq",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
   },
   "gtk-flatcolor": {
     "url": "https://github.com/Misterio77/base16-gtk-flatcolor",
-    "rev": "2e19703f19feda5ecd95fc5fbd22e7548b489f13",
-    "path": "/nix/store/skicf9vg52yl08iyw2k9liy8rg0i9ryn-base16-gtk-flatcolor",
-    "sha256": "17zrf8m3mck6hwfq0aya6zxjs3jj2s7z1jd06x0jm3lcyqjf4glg",
+    "rev": "4eaa72e263a35a5d76d4441394a4380e2b97f412",
+    "path": "/nix/store/dg17zy7dhbx2vagml9fx8qncv39zvzkd-base16-gtk-flatcolor",
+    "sha256": "1zinhas8yziwfd1cf3ay1jlqc90lsbgylh124w934q8dw0l63y77",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
@@ -175,15 +214,27 @@
     "rev": "4e43875501dc7c6366296b4393268cb4a8c2d223",
     "path": "/nix/store/wvja86fv47k1mkl8gihp5v5frc89b4y1-base16-gtk2",
     "sha256": "0pclinv6yk6b4b9fwgsplvafn9qz2n6hkf1hxg0vz8v3nrdv1vgh",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "leaveDotGit": false
+  },
+  "helix": {
+    "url": "https://github.com/krgn/base16-helix",
+    "rev": "ee5d034f075a1139842cb9674c460f515a8aa052",
+    "path": "/nix/store/21lqsazncknihbbjd303942cdwd31370-base16-helix",
+    "sha256": "1wgr41rk8lfwkq4vadd6craly0fhrxdzgzn3dhgkd690fbp0fpdy",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
   },
   "hexchat": {
     "url": "https://github.com/Diablo-D3/base16-hexchat",
-    "rev": "136810453605f921260131619430b1817215d45e",
-    "path": "/nix/store/60j7y228h004sdi86gz9mac5nagyqh00-base16-hexchat",
-    "sha256": "0dfpprq39piavq26pjbhydkdlx4x7187h27bn20sp067a0is8iz8",
+    "rev": "be0e3c80d346b420cbe637feea4cd01c3430c239",
+    "path": "/nix/store/ary30bkimi9ijnr0ps1d6wg647az03s1-base16-hexchat",
+    "sha256": "0b9wc2l0m4idywy72jzgwa981hl0gzrc9wj0nkk2vsdnlxmvrg6s",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
@@ -193,15 +244,17 @@
     "rev": "a07d0c99b4ff1144344010aa06bc14460c5618c8",
     "path": "/nix/store/b9say61ngfcn89nlznnvcggrcj8c4nxy-base16-highlight",
     "sha256": "18y67j4x0lvlxsgnh1wwaqlw3a1xvk9nld61yq271nkqda9gdf3j",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
   },
   "highlightjs": {
     "url": "https://github.com/highlightjs/base16-highlightjs",
-    "rev": "ab2fa899d3052ca9b4e673b5800b623885e6c9dc",
-    "path": "/nix/store/rjkksa6pdj35f3is0m00pvs9l50wwwh6-base16-highlightjs",
-    "sha256": "17iz49fjxvcpgcydmwh5blh2j8c4xvv273xngsnk9qsgq095gdc7",
+    "rev": "c662194d969d818d20c0ebbde9fca567f02921cc",
+    "path": "/nix/store/lk2nzcqfnmgvqicrkszk646h8la5qyc6-base16-highlightjs",
+    "sha256": "0mn0mf60adr7wc14b6b0dbhmxrw4vjdb1m3306f7ca9kxnnhll8n",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
@@ -211,6 +264,7 @@
     "rev": "f76aee571c538ae6c1772881f2f47dce486fedd2",
     "path": "/nix/store/w04cibz94dv0n0hqyhj7938ayz0ph4fl-base16-html-preview",
     "sha256": "0lamflfdsm2c012jx642i1gsvycl5mj8nkvjw9xd3r75a0rwgxsn",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
@@ -220,15 +274,17 @@
     "rev": "37fa4e4be8af0aa839ae91b9dd593ed9c077ba22",
     "path": "/nix/store/bvz1k6h0pagwcn5c2l5ja4b1dm065vl3-base16-hugo",
     "sha256": "0swzmr95l44nkgzbqygi4fqkw1ihp0csn8hn6d5zmzz0425dzl8w",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
   },
   "i3": {
     "url": "https://github.com/khamer/base16-i3",
-    "rev": "78292138812a3f88c3fc4794f615f5b36b0b6d7c",
-    "path": "/nix/store/3kbqw6ravcgbr753d91mf8yv0xlmvp9p-base16-i3",
-    "sha256": "1ikhywvf6gzyw6win07rzn0zna5bl516gpvkfrr4lfq25xh3vy4x",
+    "rev": "ef7606a2e33ff54f675108f08c5751504a4b6511",
+    "path": "/nix/store/pd1b6dfz40cbrl80xdm4ljhmjqkhshgw-base16-i3",
+    "sha256": "023k7xq2gy71wbs9ijx4iigb49ngsawq53j4klhvlc6lf72k71s4",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
@@ -238,6 +294,7 @@
     "rev": "cbf6394543d004b37a26b3d3c7261c475562d08a",
     "path": "/nix/store/mv0mcgysil2js6xsr1d2nlh6q0sq87x1-base16-i3status",
     "sha256": "14jl8ab2wrfh15c8ggy4b6sfjv0qgmdy0hmlxxirsbmgx25yd291",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
@@ -247,24 +304,27 @@
     "rev": "b761342deb520a59b487749c35e5f0fc14db0ee0",
     "path": "/nix/store/6yrw2jfisd79xam9vmncxz3slx3iwyzj-base16-i3status-rust",
     "sha256": "0ab9pkb6c2zb802ac1bli0iii0r499lviivw5bi54lg2mv3blpgv",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
   },
   "iterm2": {
     "url": "https://github.com/martinlindhe/base16-iterm2",
-    "rev": "7f9c3d60b03ff8e74635df2cce9e9442e03190e1",
-    "path": "/nix/store/d0zd3i4d0shd7sr0mk052x8xhxwrma5i-base16-iterm2",
-    "sha256": "055ii5mcvrqfvc81v0a32y01mh80w3xxidxfzfz2gkw0lj8b6l2j",
+    "rev": "0515228b68481627124253d56ba75e812bbb57d7",
+    "path": "/nix/store/m31n8ald2fvp7qiknpk8kwifqzzsnc0n-base16-iterm2",
+    "sha256": "1pc24pa0435g88pml9qzgi74r435y62fcryjiqb6g0wsl60c06ir",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
   },
   "jetbrains": {
     "url": "https://github.com/adilosa/base16-jetbrains",
-    "rev": "86aa5b81baad25ed1a68c17ecd2cc57fa26902c5",
-    "path": "/nix/store/gwary8nz5fykb9naa69grvxvk09ywv45-base16-jetbrains",
-    "sha256": "101vnbpmlv72g3mj9ysbmpyw5xin9s1x5lg09s6nf28fwbxd1823",
+    "rev": "f32e2bef9dfbff0581914b29ca3c7e76cb327170",
+    "path": "/nix/store/g43b9bqrxjj4vsw8sgr5f9lyn7y56s0i-base16-jetbrains",
+    "sha256": "1g9dd14bzsb3ky341wr1lsa7sky03h4m0yc0pq3gx5310pv1icp1",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
@@ -274,6 +334,17 @@
     "rev": "cf3cb8b01b824712a7876f5db4c3be01fc4ece62",
     "path": "/nix/store/yvkba7n26896v98b248nknq49ia0kfnk-base16-joe",
     "sha256": "11iwrf1f0c78sjblsr4yxsdyi1mym3fqlpiqsacyi5qdmsxh8ivi",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "leaveDotGit": false
+  },
+  "k9s": {
+    "url": "https://github.com/krgn/base16-k9s",
+    "rev": "930124928781551c696a8a08695e6e577adff441",
+    "path": "/nix/store/52f99myilkr40b896rdmgcsb8affgijx-base16-k9s",
+    "sha256": "1s2scz0fvyk306a8kpzjgk9a62kn9flqmykx806z6i53dqbd3kq6",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
@@ -283,15 +354,17 @@
     "rev": "bdc59fd92c584672fb9ee87f5144848321cc52e8",
     "path": "/nix/store/7f2d6ahi7nngj9hzvrmbgzdjsj3r6x92-base16-kakoune",
     "sha256": "06vaknfgsvvjv5vvalg51fdxdqx72wkvjwjmlwqdx3dsvv3yaf0w",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
   },
   "kitty": {
     "url": "https://github.com/kdrag0n/base16-kitty",
-    "rev": "fe5862cec41bfd0b46a1ac3d7565a50680051226",
-    "path": "/nix/store/zqx4497y9bap71z5day8ddiqmiryvhrl-base16-kitty",
-    "sha256": "096sa969z9v9w3ggsqd4d7gmqh52aavkmjhbz4zb35wq7fg5g5zs",
+    "rev": "06bb401fa9a0ffb84365905ffbb959ae5bf40805",
+    "path": "/nix/store/pvn0i9c6s2vp23a2by8p0rwasi406607-base16-kitty",
+    "sha256": "15kl8ky6w2g4has23yiwqxdgw5b17vai667sfa2fb9hg6v6s45k9",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
@@ -301,6 +374,7 @@
     "rev": "b30e0b26e766cf8a3d12afb18ac2773f53af5a87",
     "path": "/nix/store/lwmm1cqpmgnwi1ax1nkbddv7pw4cq3np-base16-konsole",
     "sha256": "0a8pjah1nkimnj3b59mvfj53zmjd4252s7zb7drvv45ik4n4cjj9",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
@@ -310,6 +384,17 @@
     "rev": "34112210caa242a0fb4b6b4f21e3e90e70db6aaa",
     "path": "/nix/store/djmb882lfy2pf9599i8x2g5za96cwkqj-base16-luakit",
     "sha256": "0f8wgbcjzhlji1xy8n4mj248416jazjy9x1qn5rfk1agyyslypq9",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "leaveDotGit": false
+  },
+  "neovim": {
+    "url": "https://github.com/bradcush/base16-nvim",
+    "rev": "0389c498cba577474906341c463e4dea0ca4d979",
+    "path": "/nix/store/i3b111xi7zh0l357h4493syxj8ny60fk-base16-nvim",
+    "sha256": "0cvsb6hcgbq8sxy93qaxls0c1wfd9jy7wax70bkhrfix0m1g66gl",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
@@ -319,6 +404,17 @@
     "rev": "f46c99682c03d30f52436741f1902db36738bf06",
     "path": "/nix/store/kbs62qhrw629say5l5r5zm7spbvkqqnw-base16-mako",
     "sha256": "052l3bi34mwk4hmwiy9di0lzs0c0jvkr83nvhd7rji0fz0djqxzk",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "leaveDotGit": false
+  },
+  "mate-terminal": {
+    "url": "https://github.com/fmunch/base16-mate-terminal",
+    "rev": "aae06938c52e48a8fcddcb72b8f2c81c9c937afc",
+    "path": "/nix/store/bb2a9ikqk8wd9jfygydd3ql55szjxy1b-base16-mate-terminal",
+    "sha256": "0sm5q1kyfd7sycyxdpcnwybigv1r6d41ignp43y5kqlchakwlrar",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
@@ -328,6 +424,7 @@
     "rev": "6dd46b289d04fb72d10a5a6005cec2c77d85c620",
     "path": "/nix/store/77gzip17dnmdffl0y1j1bv0pz9rn54bm-base16-mintty",
     "sha256": "0fpkhjwsv0gmvyqigdlms92vwjifagxyhqqlp4h2vymmwzqdx0y9",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
@@ -337,15 +434,27 @@
     "rev": "c6482ae507086ae0b2d7bdd5ef5310abea5e3509",
     "path": "/nix/store/iqdykmrm2z804lq1vixddji9l4j4js5x-base16-monodevelop",
     "sha256": "0zhfs22lmbmn2xn10mbdznzkk0ns8mx3jkg8apbmmqlwxlxzarw3",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "leaveDotGit": false
+  },
+  "nvim": {
+    "url": "https://github.com/wincent/base16-nvim",
+    "rev": "e71ae2694402d5e9227228d66ac273e5a5a2af76",
+    "path": "/nix/store/hffs331fyagkkws6l2ql05m7nilk3pqr-base16-nvim",
+    "sha256": "0cn4859daa2lkj8ix9c0lvhy6kqcvcdcxrkgn6dlxp4928n1az71",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
   },
   "polybar": {
     "url": "https://github.com/Misterio77/base16-polybar",
-    "rev": "bffd19614c40b706a1c5e9f5fbdd3273aeb05a15",
-    "path": "/nix/store/dxcj3a0dfwf2walqbpdz5cp7w7kybx8i-base16-polybar",
-    "sha256": "15cmvpjbp0q7j7k3zwkzmz50684538aq96gix31va2hzgvc1g4xx",
+    "rev": "d60a1fbf2dbc300d70927bb7c1d3c2895d8141a2",
+    "path": "/nix/store/fvndynvkd6xkwqy6q2gxpsidvkr06d94-base16-polybar",
+    "sha256": "1a4r2lb58kd556klvpj974l3q7i3n99zzmvki7dan8wl8zgbj0ky",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
@@ -355,6 +464,7 @@
     "rev": "8654bd3dec78559a1175170db340d9d9ffadf6e6",
     "path": "/nix/store/1xyw6f9rivs1db7yiv25lwy9l58lj07z-base16-prism",
     "sha256": "1qjqcn8x6vhq3g7w53v70jd4wpdnhmx8xdj34mll8yn7kh3k9fwm",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
@@ -364,15 +474,17 @@
     "rev": "8a52f886005eb1fa005fd65a2c4b1a680a1f1d91",
     "path": "/nix/store/pdwz1rhqaf7ldkaqb5yrdks16if8g09s-base16-prompt-toolkit",
     "sha256": "0ry7rzjshs3q677v01rcfg75zyd06qxx3qz52czd0gh84zrjs8ix",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
   },
   "putty": {
     "url": "https://github.com/abravalheri/base16-putty",
-    "rev": "119e0788413fb76d02789703e28abd0939079d3e",
-    "path": "/nix/store/dbxdaahm9q6nzvb86d6f97d4514y62g2-base16-putty",
-    "sha256": "14zlfm7wxqzm5g2sj398f075fpzn4h67gxdplb6nc1iy14qxqb7p",
+    "rev": "a5bd3f0ea90d3da49a4bba2f52b7bd71f752091f",
+    "path": "/nix/store/q8wyngn82sh1iazymyzy4rblm9b8smiz-base16-putty",
+    "sha256": "16vadkd7kf1wjwh48qwlqc9bil65ik4vgwikjks4j4svgqj3wzki",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
@@ -382,6 +494,7 @@
     "rev": "de39f100a46df33d63428fef36b203979f85a588",
     "path": "/nix/store/k19f3ndn018cmap6s48zqx0k194qjanv-base16-pygments",
     "sha256": "0iclmdhfkwafip4rwgk231nrgvc8gpd2zdbmbqs6lgw0iyalkd44",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
@@ -391,6 +504,7 @@
     "rev": "7a8ba6c794386261172f0f62536ad70edb2db62a",
     "path": "/nix/store/mklpi1m5pjp7d8r1977giw61mcab7ww7-base16-pywal",
     "sha256": "1yaipwqc64zzpdz914279kx6i3gniizkbh5g1zaxk7avzkcf7hla",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
@@ -400,6 +514,7 @@
     "rev": "f97666b1ad233e35aa081bd96abfbc6634f1d498",
     "path": "/nix/store/liy3bdafqpxywqm1hpprhs079wz7069c-base16-template-qOwnNotes",
     "sha256": "0yda35fmazm3y138qd42dkp7n2kx1qgxya7qlxshz9qhg9mxiwjf",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
@@ -409,24 +524,27 @@
     "rev": "0415c80f789bd758c611553975805c235cf02a35",
     "path": "/nix/store/625nqn0snmjz7fyfmkxgyhzi1hplywqk-base16-qtcreator",
     "sha256": "07m3rqb4qs6ggl14q9mdsj08qz0g0nxyi6cyapj785jkqdzkyv3a",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
   },
   "qutebrowser": {
     "url": "https://github.com/theova/base16-qutebrowser",
-    "rev": "67453c938c2c47633c652172b27b5b8abf218142",
-    "path": "/nix/store/jw8vwa8qnb6s81gchycp97f631iyhikh-base16-qutebrowser",
-    "sha256": "0rwsphq77l6v15gz4pzyv2zzwg5wnm80qzcccn0nwwnhm6nrv4ak",
+    "rev": "d10084b6198bd0a220d822be0156705e7fdd14ff",
+    "path": "/nix/store/8d6cbfihhqyg5i6vhbqvl9v6wd0sqph8-base16-qutebrowser",
+    "sha256": "1kf57f6k3r0lmzf1qsh7b3liczif5pm4s6rh0impapza2gs3lqj7",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
   },
   "rofi": {
     "url": "https://gitlab.com/0xdec/base16-rofi",
-    "rev": "afbc4b22d8f415dc89f36ee509ac35fb161c6df4",
-    "path": "/nix/store/1gn13caqyz8nl4mm88jnv8n78yg8rm6g-base16-rofi",
-    "sha256": "1f9gkfc4icdgdj0fkkgg1fw3n6imlr1sbi42qm9hbkjxy5fmzay2",
+    "rev": "fbe876f7f75c25f27b6bc5b0572414827ee106b5",
+    "path": "/nix/store/q49v59d65w55dxhk7sppmx037k1x9yyn-base16-rofi",
+    "sha256": "14868sfkxlcw1dz7msvvmsr95mzvv6av37wamssc5jaqjdpym8df",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
@@ -436,15 +554,27 @@
     "rev": "a1bb97088722c53e727e88f739f81d4359c43818",
     "path": "/nix/store/k977da5r2ks45m0bdbnjz8ivjnjhj92l-base16-scide",
     "sha256": "1vzj4knrq506k1njym0j0zrrn42c4kv2i3lwnaj3bb16nlmd71d1",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
   },
   "shell": {
     "url": "https://github.com/chriskempson/base16-shell",
-    "rev": "ce8e1e540367ea83cc3e01eec7b2a11783b3f9e1",
-    "path": "/nix/store/pjlv0wwdp4wlw0di39z33qipcrxqrry1-base16-shell",
-    "sha256": "1yj36k64zz65lxh28bb5rb5skwlinixxz6qwkwaf845ajvm45j1q",
+    "rev": "588691ba71b47e75793ed9edfcfaa058326a6f41",
+    "path": "/nix/store/g12ahbmhl8mnw32c2286jw64wqawqyvi-base16-shell",
+    "sha256": "0w8g0gyvahkm6zqlwy6lw9ac3hragwh3hvrnvvq2082hdyq4bksz",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "leaveDotGit": false
+  },
+  "spotify": {
+    "url": "https://github.com/misterio77/base16-spotify",
+    "rev": "f5cd309ff4c5a9a4e67fd6c52cc3078a1e692405",
+    "path": "/nix/store/yvylw7gw1laf090iky5kg7ixql3nhb92-base16-spotify",
+    "sha256": "1ic246h5kkz9nfnmhkxzwbfw8pzdkscgpng5qxj2a6ynpynb2ysy",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
@@ -454,6 +584,7 @@
     "rev": "e9cab0f7cd1c414f05bc3a21395a2f5193b21e93",
     "path": "/nix/store/0xhjhjl5m3piak25nb2pg6y4zfj5j13p-base16-st",
     "sha256": "1wg27pg0imhb9ldv04ky4qs7d6i0m7nx66x46zrw3ncqrajp6149",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
@@ -463,6 +594,7 @@
     "rev": "6510b7ca80cdc6ea0a56b7ec1f00286e090d3772",
     "path": "/nix/store/2b67869mrb4hn4bncwrc87blfswp37sm-base16-stumpwm",
     "sha256": "11v39i08nf69kf36adp5m0gmm6vl5q6gnifdx8p6c5r2vl14cpz3",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
@@ -472,6 +604,7 @@
     "rev": "8db4f00ca9e5575ba52d98a204ee44a53e13d546",
     "path": "/nix/store/m86sh482d0ndyxf1fzgbbg1mdgk8s5g2-base16-styles",
     "sha256": "1psjkzjzl3im5gyl5jri9f7bfpmr957lapknqzpj2z98hm9v6rvh",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
@@ -481,6 +614,7 @@
     "rev": "f8edbb746fe2962cfe73feca7023b9c1ae1e59eb",
     "path": "/nix/store/0rpyx64f2hfwf9dapp4nfb9g7d4hbl2j-base16-sway",
     "sha256": "109sp3c909ypjs63iw0hmj4vfcxg1pvrgbi574bj6xghgfq930nz",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
@@ -490,24 +624,27 @@
     "rev": "0b736adacf2b890ce5940e58ad7c2299948b1676",
     "path": "/nix/store/bs6d7ip64mz68bhb9afan98ldw09iv2c-base16-terminator",
     "sha256": "0n8fwrkm7gaxl9lmam4fygvp0g5hj6s05iddra17307x797lvayb",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
   },
   "termite": {
     "url": "https://github.com/khamer/base16-termite",
-    "rev": "4b57255c4580f95d5134e9754d27decdac2cf4c8",
-    "path": "/nix/store/2ygy6r88i5pi7zpw6nscg8bb9k59s6p2-base16-termite",
-    "sha256": "12vqh29zgb99rg868rl9h63lvbv8rw0finlzgzg3vawvhx1x2r5v",
+    "rev": "3ccdb510cc67cebb6ff840c2c1e609885677b469",
+    "path": "/nix/store/00ha404xcpag8nswxhnpfhmfjxjnxxjr-base16-termite",
+    "sha256": "0diiwmrhs9nxakncz5x4q8d3sd12bg1krpm79xk2md71chmdj1nn",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
   },
   "termux": {
     "url": "https://github.com/kdrag0n/base16-termux",
-    "rev": "0ddb28fb91c07a1409a92dd4c9b1376ba9916b89",
-    "path": "/nix/store/8gqlgi0cylr76slf16436cnd1lgp39d5-base16-termux",
-    "sha256": "00knxd0a7h15q9c25x2rwyp5lpp8ry3blsyzl49vmgr6rsn5m1nd",
+    "rev": "642aada9cbc1141a855fc0d2f43b61a4c58dbc85",
+    "path": "/nix/store/zjihlirq8s3x06y3qzrgaaksja5r4c3x-base16-termux",
+    "sha256": "181z5a2jqfwvd7b67wkkqlavj68d85x71d62vvzfvcw3jxq4qcsc",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
@@ -517,15 +654,17 @@
     "rev": "d8a4061ed28916e2a66230d2d9de620fb63ec1b2",
     "path": "/nix/store/mlqsbvnjz9sccpx2hy0pxkhf4k9vw2k9-base16-textadept",
     "sha256": "0mm4irmilxy36ci4mrf4kbfp020z9fnnmya48m3kq1zsms1n59ha",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
   },
   "textmate": {
     "url": "https://github.com/chriskempson/base16-textmate",
-    "rev": "1d9e52afb74e03f5a2fdc53d9327428fe00c70c7",
-    "path": "/nix/store/vvd6lk3rwrv9ylm0kwwq0nrmbkim4zr8-base16-textmate",
-    "sha256": "1h10ynqdrnh9xh9pxjzrd2yk85zavmmqs9mx6hb2v0dq4m81hkmr",
+    "rev": "0e51ddd568bdbe17189ac2a07eb1c5f55727513e",
+    "path": "/nix/store/3p6iic9cbfiayqbi4093q65fvwm1hjca-base16-textmate",
+    "sha256": "0c49xxipnv1w6yv0q3h2jjf26gn6l6fn0fjrzylx8731p1g0drmd",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
@@ -535,15 +674,27 @@
     "rev": "8d5a2b28ca1b6c20fe8db8064026a3e76d002d4c",
     "path": "/nix/store/7z6nnkjnpqwsd60a8bixjx0m4ddbvlr7-base16-tilix",
     "sha256": "0278fnr280nan7q501hj5jlarfk0xzp1npbddlzbvfkip0jdssgb",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
   },
   "tmux": {
     "url": "https://github.com/mattdavis90/base16-tmux",
-    "rev": "810ba8f86f028b467353e22837f8c89eb46fc287",
-    "path": "/nix/store/3xbc8spkq2a0hycpfv3q5kph7jvsbgqr-base16-tmux",
-    "sha256": "1r5gr61c72ab6i3bpx14r4233zl0rkwg60r17kkhvml0gdpx4w08",
+    "rev": "6f789462d07ba638e82176fbdc0a564b16eb6761",
+    "path": "/nix/store/prrclska0vwb1l9xjmgr6riz0y25m5vj-base16-tmux",
+    "sha256": "1n5pqx1x3k1xlq4jqlckjq0hc5j41q0bwrpszn09h3dw54m6y6rs",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "leaveDotGit": false
+  },
+  "tty": {
+    "url": "https://github.com/MArpogaus/base16-tty",
+    "rev": "bb543e7b3762c39544ade3aaaa57074c8300355c",
+    "path": "/nix/store/h1s5m7nmafczgj4sgwl9s7l7vkyq7i5h-base16-tty",
+    "sha256": "1p4hcg9lc1ff36h4md98xc7gxdlj63ljrbawg4pqhd4p9ai0n5gm",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
@@ -553,15 +704,17 @@
     "rev": "925a56f54c2d980db4ec986aae6e4ae29d27ee45",
     "path": "/nix/store/52vsywylnvnj35av3yh06hk2139jpxva-base16-vim-airline-themes",
     "sha256": "0pyfgw10vbkml2cgwpcq93gn6zvgwycdpvl036dkxlkbxmx4qv4g",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
   },
   "vim": {
     "url": "https://github.com/chriskempson/base16-vim",
-    "rev": "6191622d5806d4448fa2285047936bdcee57a098",
-    "path": "/nix/store/hwdivv143x4k9gw4d33rc9kbc79k7ddg-base16-vim",
-    "sha256": "1qz21jizcy533mqk9wff1wqchhixkcfkysqcqs0x35wwpbri6nz8",
+    "rev": "3be3cd82cd31acfcab9a41bad853d9c68d30478d",
+    "path": "/nix/store/xfjvik8vq3csniqlz44zk73pg31ayds0-base16-vim",
+    "sha256": "0g8mkxkjp151gwl1hj9vkxw5fq7i9m46ahgqs4lglpnch1hxm6xq",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
@@ -571,6 +724,7 @@
     "rev": "08ea2a53570320be45275206b82a9ed11a1c3bc0",
     "path": "/nix/store/hj7sk78zyy01l42mab9bxaq0hg7nvm52-base16-vimiv",
     "sha256": "083q104yrhwilxbywl6ksy74ibhpcx19p0wmqxqqr51ryvch9mky",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
@@ -580,15 +734,17 @@
     "rev": "05dae61a524edf21632fc45b473ec8c3e0f553ab",
     "path": "/nix/store/65j612qj0jh6r24j2qhg0wpgnvhs5647-base16-vis",
     "sha256": "15jd45565v8agzqhaklnsv06mmrzznkqmw8n5bs2c2fqi6228jca",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
   },
   "vscode": {
     "url": "https://github.com/golf1052/base16-vscode",
-    "rev": "bec6c99a8751f8562a283b2165914ae9085252e5",
-    "path": "/nix/store/jicxpdb2wa7v75wkcjck3xrkhrai902m-base16-vscode",
-    "sha256": "08racpcv3kdkks4s0dsypjp1gz6qv7crjbs2jpf6bwb6mya0h71m",
+    "rev": "e666ffd5eb24275b9098bc1ee57440ba98afa9d9",
+    "path": "/nix/store/sqp43ap8kshyb30dmr64rm62gz8i1ycl-base16-vscode",
+    "sha256": "09il4z7pyx6xsb1xljk3qbivz0wbksyld2773cpw17an3g01n4jk",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
@@ -598,6 +754,17 @@
     "rev": "d2f943b1abb9c9f295e4c6760b7bdfc2125171d2",
     "path": "/nix/store/linwni4r199f2ph9vbkrqwc4i4a36abp-base16-waybar",
     "sha256": "1kc4w98rbdb3lyqrf8lzc1xsgn1zxqlzwxry6fiz89ygn84gh5ks",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "leaveDotGit": false
+  },
+  "wezterm": {
+    "url": "https://github.com/krgn/base16-wezterm",
+    "rev": "12300880d4bbf04d0a843081f8e05e098b4161b7",
+    "path": "/nix/store/3lql2bzximz616wqvdph8cbp04rj4hkf-base16-wezterm",
+    "sha256": "1xbd1iwmhkl3x13qfim5c4p1q2i0jdxp072f9aggcmwm8wrlkwff",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
@@ -607,6 +774,7 @@
     "rev": "dd1a21edf83c2f66b8d6267bb096fd73d1fd0b46",
     "path": "/nix/store/awd16bwllarmz8x27d4f5bbz4j265xk5-base16-windows-command-prompt",
     "sha256": "09cl5jq5l6hv6jscc45pdjkfshxw88bqp7igqrhscnf028q81jb6",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
@@ -616,6 +784,7 @@
     "rev": "121784ab1c5ca849f344914d5276f4b73bbdc371",
     "path": "/nix/store/vcqh0inyf713rlkq8hxzx81i6jadkwcz-base16-windows-terminal",
     "sha256": "15gj7ibdh3n2mmxlkilz3svlpmq3yp77bm6gjkz377ilynmxb2nq",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
@@ -625,6 +794,7 @@
     "rev": "f46548edb287b4195d23bac6e6c442b10ba6beb6",
     "path": "/nix/store/ni618wdkf4160257vfgxs57srslah63m-base16-wmaker",
     "sha256": "052d5n24xg4xngh55zv0b2n1jn6i401rsbrmgvmffc7pk50zmxsq",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
@@ -634,51 +804,57 @@
     "rev": "2182a5ad36d372e625b3d8e1a20ba7447e77ed22",
     "path": "/nix/store/3qlc63pddk3ksmy67i0z6d38qs32mgjm-base16-wofi",
     "sha256": "0hzn9lgh7rzahmzzdsgxnz4f8vvcpx5diwsnc7gb29gj9nbb1a8f",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
   },
   "xcode": {
     "url": "https://github.com/kreeger/base16-xcode",
-    "rev": "cea39392e45deed6073ea288bb216b66153f9b4a",
-    "path": "/nix/store/qsggdbsy64ls06jzn04b3m7fgzv4m2br-base16-xcode",
-    "sha256": "0aypnrlz0b5znnmgylyjq95xfv7lz9binjpqjj7611dc1w1q9h0i",
+    "rev": "b45d22997e28449fece26f66b40d414637d7b4be",
+    "path": "/nix/store/da7dkilx82jmvs580py9vxwbk86afy0v-base16-xcode",
+    "sha256": "1b0ihzmc4m4brkd6l92g379w11zrssc2shwgsvgf4502v0836w9r",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
   },
   "xfce4-terminal": {
     "url": "https://github.com/afq984/base16-xfce4-terminal",
-    "rev": "3a7eb9478f1afa964332f1b79ab4aa718e28ba2c",
-    "path": "/nix/store/26ppmp77mlwgd3jd1q15fmqg41sv6a4k-base16-xfce4-terminal",
-    "sha256": "141s330bhqvlfnh6z7y9xhs4n4zjj2s62b93rvk5pxvr4k9fq9ac",
+    "rev": "b603ec59e9c45bcf18c09ebf549851cb52eafe05",
+    "path": "/nix/store/g87jc3qh2hvkycwqvby643zzsiln8ynd-base16-xfce4-terminal",
+    "sha256": "1ppf1rmnjzyyidknz2452vms4wrrzdgdg764a7bc52m3axqkvnxv",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
   },
   "xresources": {
-    "url": "https://github.com/chriskempson/base16-xresources",
-    "rev": "79e6e1de591f7444793fd8ed38b67ce7fce25ab6",
-    "path": "/nix/store/clh16hb8pbdhpl380mpm2sb7cjrwkbpk-base16-xresources",
-    "sha256": "1nnj5py5n0m8rkq3ic01wzyzkgl3g9a8q5dc5pcgj3qr47hhddbw",
+    "url": "https://github.com/base16-project/base16-xresources",
+    "rev": "ee5550309aaa09e36e8114b6dc8738b6e4da79eb",
+    "path": "/nix/store/akgzslb0p9k3vky1iajvri2ik3xmdqir-base16-xresources",
+    "sha256": "1mzgly68i3d33j69d5r5gywzri49xg2yvn337zn8bcd61y3xljh1",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
   },
   "xshell": {
     "url": "https://github.com/h404bi/base16-xshell",
-    "rev": "0eda8dbccdec9737fbcc4810bfd2676ea7243c08",
-    "path": "/nix/store/30ba30gy72vcra9hb31ix5viq35vkaq7-base16-xshell",
-    "sha256": "1n1j80zab3rs43p20k5mgbnwf8yy7y4wg9rpa1lz6s5din5d9l3k",
+    "rev": "59f17f69f276dc6deb2d11171fb0136635f9565d",
+    "path": "/nix/store/6y0ljlgny6b2qga6l7qfv9qba87xvgl3-base16-xshell",
+    "sha256": "0zk0ajq0gwqg8k0kd5c44b75z5x4mv9y9j3hrabaq4ymfpg92p1i",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
   },
   "zathura": {
     "url": "https://github.com/nicodebo/base16-zathura",
-    "rev": "d97b110bf6d576cd2c09e45cdf27d44f4e0af87b",
-    "path": "/nix/store/mklirzpll5vk8a61qq85qanwcwnqcwhv-base16-zathura",
-    "sha256": "1q0x2y0dzshrghd5f5b2gzc5bd538v60b1wd2xn8gfs71vx1v6wc",
+    "rev": "9f148b4001dc67d399e645919225943d47e50125",
+    "path": "/nix/store/6az66qkmzvj4b0zc8famk9qzbizhac4z-base16-zathura",
+    "sha256": "1rjaan757k4fwy8xgjcjnrayxfivf00s9msis5w87dgj1756hllx",
+    "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
