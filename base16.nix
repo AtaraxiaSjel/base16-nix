@@ -34,7 +34,7 @@ let
   # a transformation of this data such as rgb. The hacky python script pre-
   # processes the theme file in this way for consumption by the mustache
   # engine below.
-  python = pkgs.python.withPackages (ps: [ ps.pyyaml ]);
+  python = pkgs.python3.withPackages (ps: [ ps.pyyaml ]);
   preprocess = src:
     pkgs.stdenv.mkDerivation {
       name = "yaml";

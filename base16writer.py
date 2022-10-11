@@ -2,9 +2,9 @@
 import yaml
 import json
 import sys
-input = yaml.load(sys.stdin)
+input = yaml.safe_load(sys.stdin)
 input["colors"] = {}
-for (k,v) in input.copy().items():
+for (k,v) in list(input.copy().items()):
     if k[0:4] == "base":
         col = k[4:]
         input["colors"][k[4:]] = {
