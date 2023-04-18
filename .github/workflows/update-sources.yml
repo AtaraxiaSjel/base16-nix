@@ -1,0 +1,33 @@
+name: "Update sources"
+on:
+  schedule:
+    - cron: '0 0 * * 0'
+  workflow_dispatch:
+  pull_request:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v3
+      - name: "Install Nix"
+        uses: cachix/install-nix-action@v18
+        with:
+          extra_nix_config: |
+            access-tokens = github.com=${{ secrets.WORKFLOW_TOKEN }}
+      - uses: workflow/nix-shell-action@v3.2.1
+        with:
+          flakes: .#update-base16
+          script: |
+            set -e
+            update-base16
+      - name: "Auto-commit changes"
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "[AUTO] Update sources"
+          file_pattern: "schemes.json templates.json"
+          commit_user_name: "Github Actions"
+          commit_user_email: "ataraxiadev@ataraxiadev.com"
+          commit_author: "AtaraxiaSjel <ataraxiadev@ataraxiadev.com>"
